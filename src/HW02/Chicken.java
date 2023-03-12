@@ -5,4 +5,3 @@ public class Chicken extends Bird {
         super(height, weight, eyesColor, flightHeight);
     }
 }
-***
