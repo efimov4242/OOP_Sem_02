@@ -7,7 +7,7 @@ public abstract class Bird extends Animal {
         super(height, weight, eyesColor);
         this.flightHeight = flightHeight;
     }
-    
+
     public void fly(){
         System.out.println("Я лечу на " + flightHeight + " метрах!");
     }
