@@ -4,9 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="6a35725a-eae5-426d-804e-3474a5e7c4ae" name="Changes" comment="">
+    <list default="true" id="6a35725a-eae5-426d-804e-3474a5e7c4ae" name="Changes" comment="Реализованы классы и методы">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/HW02/Chicken.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/HW02/Chicken.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -38,12 +37,13 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true"
   }
-}</component>
+}]]></component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
       <recent name="C:\Users\Manella\Desktop\Илья\Java\OOP_Java\OOP_Sem_02\src\HW02" />
@@ -72,6 +72,18 @@
       <option name="presentableId" value="Default" />
       <updated>1678471202768</updated>
     </task>
+    <task id="LOCAL-00001" summary="Реализованы классы и методы">
+      <created>1678709034054</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1678709034054</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Реализованы классы и методы" />
+    <option name="LAST_COMMIT_MESSAGE" value="Реализованы классы и методы" />
   </component>
 </project>
