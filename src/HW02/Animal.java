@@ -1,9 +1,9 @@
 package HW02;
 
 public abstract class Animal {
-    private double height;
-    private double weight;
-    private String eyesColor;
+    double height;
+    double weight;
+    String eyesColor;
 
     public Animal(double height, double weight, String eyesColor) {
         this.height = height;
@@ -12,8 +12,6 @@ public abstract class Animal {
     }
 
     public void makeSound(){}
-
-    public void printInfo(){}
 
     @Override
     public String toString() {

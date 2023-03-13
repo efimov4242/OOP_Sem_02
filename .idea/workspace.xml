@@ -5,8 +5,20 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="6a35725a-eae5-426d-804e-3474a5e7c4ae" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/HW02/HomeAnimal.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/HW02/Animal.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/HW02/Animal.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/HW02/Bird.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/HW02/Bird.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/HW02/Cat.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/HW02/Cat.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/HW02/Chicken.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/HW02/Chicken.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/HW02/Dog.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/HW02/Dog.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/HW02/Pet.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/HW02/Program.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/HW02/Program.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/HW02/Stork.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/HW02/Stork.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/HW02/Tiger.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/HW02/Tiger.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/HW02/WildAnimal.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/HW02/WildAnimal.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/HW02/Wolf.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/HW02/Wolf.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -38,12 +50,13 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true"
   }
-}</component>
+}]]></component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
       <recent name="C:\Users\Manella\Desktop\Илья\Java\OOP_Java\OOP_Sem_02\src\HW02" />
