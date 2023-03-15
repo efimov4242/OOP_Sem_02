@@ -7,7 +7,7 @@ public class Zoo {
     public static void main(String[] args) {
         printMenu();
 
-        }
+    }
 
     static void printMenu() {
         System.out.println("Добро пожаловать в зоопарк!");
@@ -25,7 +25,7 @@ public class Zoo {
             System.out.println(entry.getKey() + " - " + entry.getValue());
         }
     }
-
+    /*
     static void choiceMenu() {
         Scanner iScanner = new Scanner(System.in);
         int menuNum = iScanner.nextInt();
@@ -38,8 +38,12 @@ public class Zoo {
             } else if (menuNum == 3) {
                 getAnimalInfo();
             } else if (menuNum == 4) {
-                playSound();
+                playAnimalSound();
             } else if (menuNum == 5) {
+                getAllAnimalsInfo();
+            } else if (menuNum == 6) {
+                playAllAnimalsSound();
+            } else if (menuNum == 7) {
                 System.out.println("Ждем вас снова!");
                 System.exit(0);
             }
@@ -59,46 +63,43 @@ public class Zoo {
         animals.add(animal);
     }
 
-    public static void removeAnimal(){
+    public static void removeAnimal() {
         System.out.println("Введите номер животного, чтобы удалить: ");
         Scanner removeScanner = new Scanner(System.in);
         int index = removeScanner.nextInt();
         for (int i = 0; i < animals.size(); i++) {
-            if(i == index) {
+            if (i == index) {
                 animals.remove(i);
             }
             removeScanner.close();
-    }
-
-    public static void getAnimalInfo(){
-        System.out.println("Введите номер животного, чтобы показать информацию: ");
-        Scanner infoScanner1 = new Scanner(System.in);
-        int index1 = infoScanner1.nextInt();
-        for (int i = 0; i < animals.size(); i++) {
-            if(i == index) {
-                System.out.println(animals.get(i));
-        }
-            infoScanner1.close();
         }
     }
-    public static void playSound(int index){
 
+        public static void getAnimalInfo () {
+            System.out.println("Введите номер животного, чтобы показать информацию: ");
+            Scanner infoScanner1 = new Scanner(System.in);
+            int index1 = infoScanner1.nextInt();
+            for (int i = 0; i < animals.size(); i++) {
+                if (i == index1) {
+                    System.out.println(animals.get(i));
+                }
+                infoScanner1.close();
+            }
         }
 
+        public static void playAnimalSound () {
+        }
+
+
+        public static void getAllAnimalsInfo () {
+        }
+
+        public static void playAllAnimalsSound () {
+        }
+
+
+        Animal dog = new Dog(1, 5, "black", "Tom", "Dog", "21.08.2023",
+                "White", "21.06.2022", "Yes");
+
+     */
     }
-    public static void getAnimals(){
-
-    }
-    public static void playSound(){
-
-    }
-
-
-
-
-
-
-    Animal dog = new Dog(1, 5, "black", "Tom", "Dog", "21.08.2023",
-            "White", "21.06.2022", "Yes");
-
-}

@@ -4,7 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="6a35725a-eae5-426d-804e-3474a5e7c4ae" name="Changes" comment="В классе Zoo Добавлен объект dog и метод ddAnimal">
+    <list default="true" id="6a35725a-eae5-426d-804e-3474a5e7c4ae" name="Changes" comment="В классе Zoo Добавлено меню">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/HW02/Zoo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/HW02/Zoo.java" afterDir="false" />
     </list>
@@ -94,12 +94,20 @@
       <option name="project" value="LOCAL" />
       <updated>1678797351676</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="В классе Zoo Добавлено меню">
+      <created>1678800477001</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1678800477001</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Реализованы классы и методы" />
     <MESSAGE value="В классе Zoo Добавлен объект dog и метод ddAnimal" />
-    <option name="LAST_COMMIT_MESSAGE" value="В классе Zoo Добавлен объект dog и метод ddAnimal" />
+    <MESSAGE value="В классе Zoo Добавлено меню" />
+    <option name="LAST_COMMIT_MESSAGE" value="В классе Zoo Добавлено меню" />
   </component>
 </project>
