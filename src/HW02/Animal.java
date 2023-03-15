@@ -11,6 +11,9 @@ public abstract class Animal {
         this.eyesColor = eyesColor;
     }
 
+    protected Animal() {
+    }
+
     public void makeSound(){}
 
     @Override

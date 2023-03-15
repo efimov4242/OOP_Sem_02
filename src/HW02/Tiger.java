@@ -3,7 +3,7 @@ package HW02;
 import java.time.LocalDate;
 
 public class Tiger extends WildAnimal{
-    public Tiger(double height, double weight, String eyesColor, String location, LocalDate dateOfLocation) {
+    public Tiger(double height, double weight, String eyesColor, String location, String dateOfLocation) {
         super(height, weight, eyesColor, location, dateOfLocation);
     }
 

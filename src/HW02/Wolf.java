@@ -5,7 +5,7 @@ import java.time.LocalDate;
 public class Wolf extends WildAnimal{
     String isLeader;
 
-    public Wolf(double height, double weight, String eyesColor, String location, LocalDate dateOfLocation, String isLeader) {
+    public Wolf(double height, double weight, String eyesColor, String location, String dateOfLocation, String isLeader) {
         super(height, weight, eyesColor, location, dateOfLocation);
         this.isLeader = isLeader;
     }
