@@ -1,13 +1,18 @@
 package HW02;
 
-public class Stork extends Bird{
+public class Stork extends Bird implements PlaySound{
     public Stork(double height, double weight, String eyesColor, int flightHeight) {
         super(height, weight, eyesColor, flightHeight);
     }
 
-    @Override
-    public void makeSound() {
+    public void playSound() {
+
         System.out.println("Кркркркрк");
+    }
+
+    @Override
+    public void animal() {
+
     }
 
     @Override

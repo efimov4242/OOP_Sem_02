@@ -4,15 +4,20 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="6a35725a-eae5-426d-804e-3474a5e7c4ae" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/HW02/Zoo.java" afterDir="false" />
+    <list default="true" id="6a35725a-eae5-426d-804e-3474a5e7c4ae" name="Changes" comment="Решение">
+      <change afterPath="$PROJECT_DIR$/src/HW02/PlaySound.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/HW02/Animal.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/HW02/Animal.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/HW02/Bird.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/HW02/Bird.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/HW02/Cat.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/HW02/Cat.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/HW02/Chicken.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/HW02/Chicken.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/HW02/Dog.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/HW02/Dog.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/HW02/HomeAnimal.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/HW02/HomeAnimal.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/HW02/Stork.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/HW02/Stork.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/HW02/Tiger.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/HW02/Tiger.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/HW02/WildAnimal.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/HW02/WildAnimal.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/HW02/Wolf.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/HW02/Wolf.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/HW02/Zoo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/HW02/Zoo.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -22,15 +27,15 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="Interface" />
         <option value="Class" />
+        <option value="Interface" />
       </list>
     </option>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_BRANCH_BY_REPOSITORY">
       <map>
-        <entry key="$PROJECT_DIR$" value="HW13031" />
+        <entry key="$PROJECT_DIR$" value="938a501f96ee722e3a7b0a16ab28b5ac8952704c" />
       </map>
     </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -56,23 +61,10 @@
       <recent name="C:\Users\Manella\Desktop\Илья\Java\OOP_Java\OOP_Sem_02\src\HW02" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.Zoo">
-    <configuration name="Program" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Program" />
-      <module name="OOP_Sem_02" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
+  <component name="RunManager">
     <configuration name="Zoo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="HW02.Zoo" />
       <module name="OOP_Sem_02" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="HW02.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -80,8 +72,8 @@
     <recent_temporary>
       <list>
         <item itemvalue="Application.Zoo" />
-        <item itemvalue="Application.Program" />
-        <item itemvalue="Application.Program" />
+        <item itemvalue="Application.Zoo" />
+        <item itemvalue="Application.Zoo" />
       </list>
     </recent_temporary>
   </component>
@@ -101,11 +93,46 @@
       <option name="project" value="LOCAL" />
       <updated>1678709034054</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="В классе Zoo Добавлен объект dog и метод ddAnimal">
+      <created>1678792975778</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1678792975778</updated>
+    </task>
+    <task id="LOCAL-00003" summary="В классе Zoo Добавлен объект dog и метод ddAnimal">
+      <created>1678797351676</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1678797351676</updated>
+    </task>
+    <task id="LOCAL-00004" summary="В классе Zoo Добавлено меню">
+      <created>1678800477001</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1678800477001</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Реализованы классы и методы" />
-    <option name="LAST_COMMIT_MESSAGE" value="Реализованы классы и методы" />
+    <MESSAGE value="В классе Zoo Добавлен объект dog и метод ddAnimal" />
+    <MESSAGE value="В классе Zoo Добавлено меню" />
+    <MESSAGE value="Решение" />
+    <option name="LAST_COMMIT_MESSAGE" value="Решение" />
   </component>
 </project>

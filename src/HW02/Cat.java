@@ -1,16 +1,11 @@
 package HW02;
 
-public class Cat extends HomeAnimal {
+public class Cat extends HomeAnimal implements PlaySound{
     String woolColor;
 
-    public Cat(double height, double weight, String eyesColor, String name, String breed, String vaccination, String color, String woolColor, String dateOfBirth) {
-        super(height,
-                weight,
-                eyesColor,
-                name,
-                breed,
-                vaccination,
-                color, dateOfBirth);
+    public Cat(double height, double weight, String eyesColor, String name, String breed, String vaccination,
+               String color, String woolColor, String dateOfBirth) {
+        super(height, weight, eyesColor, name, breed, vaccination, color, dateOfBirth);
         this.woolColor = woolColor;
     }
 
@@ -18,9 +13,13 @@ public class Cat extends HomeAnimal {
         return woolColor;
     }
 
-    @Override
-    public void makeSound() {
+    public void playSound(){
         System.out.println("Мяу-мяу");
+    }
+
+    @Override
+    public void animal() {
+
     }
 
     @Override

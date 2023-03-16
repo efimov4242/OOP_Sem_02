@@ -2,7 +2,7 @@ package HW02;
 
 import java.time.LocalDate;
 
-public class Dog extends HomeAnimal {
+public class Dog extends HomeAnimal implements PlaySound {
     String training;
 
     public Dog(double height, double weight, String eyesColor, String name, String breed, String vaccination, String color, String dateOfBirth, String training) {
@@ -19,9 +19,13 @@ public class Dog extends HomeAnimal {
         System.out.println("Дрессировать");
     }
 
-    @Override
-    public void makeSound() {
+    public void playSound() {
         System.out.println("Гав-гав");
+    }
+
+    @Override
+    public void animal() {
+
     }
 
     @Override

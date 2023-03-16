@@ -3,16 +3,15 @@ package HW02;
 import java.util.*;
 
 public class Zoo {
-
     public static void main(String[] args) {
         printMenu();
         animals();
         choiceMenu();
-
-
     }
 
-    public static ArrayList<Animal> animals =new ArrayList<>();
+    //список всех животных
+    public static ArrayList<Animal> animals = new ArrayList<>();
+
     public static void animals() {
 
         animals.add(new Cat(1, 5, "Yellow", "Tom", "Scotish", "21.08.2021",
@@ -25,12 +24,37 @@ public class Zoo {
         animals.add(new Wolf(3, 20, "Blue", "Australia", "02.03.2022", "Yes"));
     }
 
-    private static ArrayList<Animal> animalsInZoo =new ArrayList<>();
+    public static void printAnimals() {
+        if (!animals.isEmpty()) {
+            int i = 1;
+            for (Animal animal : animals) {
+                System.out.println(i + " - " + animal);
+                i++;
+            }
+        } else {
+            System.out.println("Список животных пуст!");
+        }
+    }
 
+    //список жтвотных зоопарка
+    private static Set<Animal> animalsInZoo = new HashSet<>() {
+    };
+
+    public static void printAnimalsInZoo() {
+        if (!animalsInZoo.isEmpty()) {
+            System.out.println("В зоопарке: ");
+            int i = 1;
+            for (Animal animal : animalsInZoo) {
+                System.out.println(i + " - " + animal);
+                i++;
+            }
+        } else {
+            System.out.println("Зоопарк пуст!");
+        }
+    }
 
     static void printMenu() {
         System.out.println("Добро пожаловать в зоопарк!");
-
         Map<Integer, String> menu = new HashMap<>();
         menu.put(1, "Добавить животное в зоопарк");
         menu.put(2, "Убирать животное с номером i из зоопарка");
@@ -44,10 +68,10 @@ public class Zoo {
             System.out.println(entry.getKey() + " - " + entry.getValue());
         }
     }
+
     static void choiceMenu() {
         Scanner iScanner = new Scanner(System.in);
         int menuNum = iScanner.nextInt();
-
         while (true) {
             if (menuNum == 1) {
                 addAnimal();
@@ -56,7 +80,7 @@ public class Zoo {
             } else if (menuNum == 3) {
                 getAnimalInfo(2);
             } else if (menuNum == 4) {
-                playAnimalSound(3);
+                playAnimalSound();
             } else if (menuNum == 5) {
                 getAllAnimalsInfo();
             } else if (menuNum == 6) {
@@ -71,42 +95,25 @@ public class Zoo {
         }
     }
 
-
     public static void addAnimal() {
-        System.out.println("Введите номер животного, чтобы добавить в зоопарк: ");
+        System.out.println("Введите индекс животного, чтобы добавить в зоопарк: ");
+        printAnimals();
         Scanner isc = new Scanner(System.in);
         int nmb = isc.nextInt();
         for (int i = 0; i < animals.size(); i++) {
             if (i == nmb) {
-                animalsInZoo.addAll(animals.subList(0, i));
+                animalsInZoo.add(animals.get(i));
             }
         }
-        inZoo();
+        printAnimalsInZoo();
     }
-    public static void inZoo() {
-        System.out.println("В зоопарке: ");
-        int i = 0;
-        for (Animal animal : animalsInZoo) {
-            if (!animalsInZoo.isEmpty()) {
-                System.out.println(i + " - " + animal);
-                i++;
-            } else {
-                System.out.println("Зоопарк пуст!");
-            }
-        }
-    }
-
 
     public static void removeAnimal() {
         System.out.println("Введите номер животного, чтобы удалить из зоопарка: ");
         Scanner removeScanner = new Scanner(System.in);
         int index = removeScanner.nextInt();
-        for (int i = 0; i < animalsInZoo.size(); i++) {
-            if (i == index) {
-                animalsInZoo.remove(i);
-            }
-        }
-        inZoo();
+        animalsInZoo.remove(animalsInZoo.toArray()[index-1]);
+        printAnimalsInZoo();
     }
 
         public static void getAnimalInfo(int numb) {
@@ -117,13 +124,23 @@ public class Zoo {
                 }
                 i++;
             }
-
         }
 
-        public static void playAnimalSound(int numb) {
-            animalsInZoo.get(numb).makeSound();
+        public static void playAnimalSound() {
+            System.out.println("Введите номер животного, чтобы узнать его звук: ");
+            Scanner removeScanner = new Scanner(System.in);
+            int index = removeScanner.nextInt();
+            int i = 1;
+            for(Animal animal : animalsInZoo) {
+                animal.animal();
+                if(animal instanceof PlaySound) {
+                    if(index == i) {
+                        ((PlaySound) animal).playSound();
+                    }
+                }
+                i++;
+            }
         }
-
 
         public static void getAllAnimalsInfo() {
             int i = 0;
@@ -131,9 +148,15 @@ public class Zoo {
                 System.out.println(i + " - " + animal);
                 i++;
             }
-            inZoo();
+            printAnimalsInZoo();
         }
 
         public static void playAllAnimalsSound () {
+            for(Animal animal : animalsInZoo) {
+                animal.animal();
+                if(animal instanceof PlaySound) {
+                    ((PlaySound) animal).playSound();
+                }
+            }
         }
 }

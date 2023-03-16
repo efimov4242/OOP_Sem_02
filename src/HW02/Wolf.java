@@ -2,7 +2,7 @@ package HW02;
 
 import java.time.LocalDate;
 
-public class Wolf extends WildAnimal{
+public class Wolf extends WildAnimal implements PlaySound{
     String isLeader;
 
     public Wolf(double height, double weight, String eyesColor, String location, String dateOfLocation, String isLeader) {
@@ -15,6 +15,16 @@ public class Wolf extends WildAnimal{
         return isLeader;
     }
 
+    public void playSound() {
+
+        System.out.println("Ауууууу");
+    }
+
+    @Override
+    public void animal() {
+
+    }
+
     @Override
     public String toString() {
         return "Wolf{" +
@@ -25,10 +35,5 @@ public class Wolf extends WildAnimal{
                 ", weight=" + weight +
                 ", eyesColor='" + eyesColor + '\'' +
                 '}';
-    }
-
-    @Override
-    public void makeSound() {
-        System.out.println("Ауууууу");
     }
 }

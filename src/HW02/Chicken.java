@@ -1,12 +1,18 @@
 package HW02;
 
-public class Chicken extends Bird {
+public class Chicken extends Bird implements PlaySound{
+    @Override
+    public void animal() {
+
+    }
+
     public Chicken(double height, double weight, String eyesColor) {
+
         super(height, weight, eyesColor);
     }
 
-    @Override
-    public void makeSound() {
+    public void playSound() {
+
         System.out.println("Цып-цып");
     }
 

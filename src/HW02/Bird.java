@@ -13,11 +13,6 @@ public abstract class Bird extends Animal {
     }
 
 
-    @Override
-    public void makeSound() {
-        System.out.println("Звук какой-то птицы");
-    }
-
     public void fly(){
         System.out.println("Я лечу на " + flightHeight + " метрах!");
     }

@@ -20,10 +20,6 @@ public abstract class HomeAnimal extends Animal {
         System.out.println("Я ласкаюсь!");
     }
 
-    @Override
-    public void makeSound() {
-        System.out.println("Звук домашнего животного");;
-    }
 
     @Override
     public String toString() {

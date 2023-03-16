@@ -5,16 +5,13 @@ public abstract class Animal {
     double weight;
     String eyesColor;
 
+    public abstract void animal();
+
     public Animal(double height, double weight, String eyesColor) {
         this.height = height;
         this.weight = weight;
         this.eyesColor = eyesColor;
     }
-
-    protected Animal() {
-    }
-
-    public void makeSound(){}
 
     @Override
     public String toString() {

@@ -11,9 +11,4 @@ public abstract class WildAnimal extends Animal {
         this.location = location;
         this.dateOfLocation = dateOfLocation;
     }
-
-    @Override
-    public void makeSound() {
-        System.out.println("Звук какого-то дикого животного");
-    }
 }
